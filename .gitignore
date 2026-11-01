@@ -1,0 +1,4 @@
+node_modules/
+# written into mod folders by the Herdr app
+jsconfig.json
+*.d.ts

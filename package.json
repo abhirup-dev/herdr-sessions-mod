@@ -1,0 +1,27 @@
+{
+  "name": "herdr-sessions-mod",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Sessions for the Herdr desktop app: groups of spaces in the sidebar, a session filter for the agents list, and hs, a CLI for people and agents",
+  "bin": {
+    "hs": "cli/hs.ts"
+  },
+  "scripts": {
+    "setup": "bun scripts/setup.ts",
+    "teardown": "bun scripts/setup.ts --off",
+    "test": "bun test",
+    "check": "bun test && for m in mods/*/; do herdr-app check \"$m\"; done"
+  },
+  "dependencies": {
+    "cac": "^7.1.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhirup-dev/herdr-sessions-mod.git"
+  },
+  "homepage": "https://github.com/abhirup-dev/herdr-sessions-mod"
+}
