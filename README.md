@@ -2,7 +2,7 @@
 
 Sessions for the [Herdr](https://herdr.dev) desktop app: groups of spaces, picked from colored tiles in the sidebar. The agents list filters by session, or shows all sessions with a badge per agent. `hs` (Herdr Sessions CLI) shows and changes it all from a terminal, for you or an agent.
 
-![Herdr Sessions](preview.png)
+<p align="center"><img src="preview.png" alt="Herdr Sessions: session tiles above the spaces list, agents with session badges" width="268"></p>
 
 ```
  mods/session-spaces   sidebar: tiles, spaces by session        ┐ shared.json
